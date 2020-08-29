@@ -1,0 +1,1 @@
+print ("hello world, my name is tisya and i was not born yesterday")
