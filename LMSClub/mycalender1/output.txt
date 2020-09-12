@@ -1,0 +1,7 @@
+Day		Time		Subject 
+Monday		9:10 - 10:15	ELA
+Monday		10:35 - 11:40	Social Studies
+Monday		12:10 - 1:15	PE
+Tuesday		9:10 - 10:15	Elective
+Tuesday		10:35 - 11:40	Math
+Tuesday		12:10 - 1:15	Science
