@@ -1,0 +1,4 @@
+This is a little test to make sure that Monday is present in my calendar.
+Also, I have converted all the words to uppercase with one string function.
+I have used the "find" string function and the "upper" string function.
+I also made a function that "If Monday is present it will print 'Monday is present' and if not, it will print 'Monday is not present.' "
