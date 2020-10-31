@@ -9,7 +9,7 @@ def PrintMyPeriod (day, time, subject):
 	print (day + "\t\t" + time + "\t" + subject)
 
 
-print ("Day\t\tTime\t\tSubject ")
+print ("Day\t\tTime\t\tSubject ")j
 
 day = "Monday"
 time = "9:10 - 10:15"

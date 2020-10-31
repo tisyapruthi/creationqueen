@@ -1,0 +1,8 @@
+This is a little test to make sure that Monday is present in my calendar, the second version.
+In this one I have NOT used the string find function to find the word Monday in my calendar.
+I made my own function, which simply finds it within the multi-line string. 
+At the end, I used the len function to find how many characters my calendar was. I made a
+print statement that converted the integer (produced by the len) into it's own little string.
+Then it combined the string within the string to make a sentence explaining what the integer
+is, instead of just printing the number.
+I also left notes throughout the code explaining what I did, for future reference!
