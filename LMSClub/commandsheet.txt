@@ -1,0 +1,99 @@
+    1  python 
+    2  pwd
+    3  hbrew update python
+    4  hbrew
+    5  brew update python
+    6  cd coding
+    7  cd creationqueen/LMSClub/
+    8  cd Functions.
+    9  cd Functions
+   10  python Functions
+   11  python Functions.py 
+   12  pwd
+   13  cd coding/creationqueen/LMSClub/
+   14  ls
+   15  cp -R mycalender1/ mycalendar2
+   16  cd mycalendar2/
+   17  ls
+   18  ls -l
+   19  mv mycalendar1.py mycalendar2.py
+   20  more README
+   21  textedit README
+   22  pwd
+   23  cd ..
+   24  pwd
+   25  cp -R mycalendar2 mycalendar3
+   26  pwd
+   27  cd creationqueen
+   28  coding
+   29  cd coding
+   30  cd creationqueen/
+   31  ls
+   32  cd LMSClub
+   33  ls
+   34  cp -R mycalender1 ismondaypresent
+   35  cd ismondaypresent
+   36  ls
+   37  mv mycalendar1.py ismondayatthetable.py
+   38  /Users/tisyapruthi/venv/bin/python ; exit;
+   39  pwd
+   40  python mycalendar2/mycalendar2.py 
+   41  python mycalendar2/mycalendar2.py 
+   42  sudo fdisk -l
+   43  sudo fdisk -l
+   44  df -g
+   45  ls -l
+   46  cd /tmp
+   47  ls
+   48  ls -l
+   49  cd
+   50  exit
+   51  pwd
+   52  cd downloads
+   53  ls
+   54  ls gradient\ 1
+   55  ls gradient\ 1.png 
+   56  pwd
+   57  mv gradient\ 1.png gradient1.png
+   58  python --version
+   59  pwd
+   60  whereis python
+   61  cd /usr/bin
+   62  ls
+   63  ls -l
+   64  python3 --version
+   65  ls -l | grep python
+   66  rm python
+   67  sudo rm python
+   68  pwd
+   69  sudo su -
+   70  pwd
+   71  sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+   72  ls 
+   73  cd coding
+   74  find . -name 
+   75  find . -name "coding"
+   76  pwd
+   77  cd 
+   78  find . -name "coding"
+   79  cd coding
+   80  cd creationqueen
+   81  cd LMSClub
+   82  ls
+   83  mkdir customcalendar
+   84  cd customcalendar/
+   85  virtualenv venv
+   86  venv/bin/activate
+   87  ls
+   88  cd venv/bin
+   89  ls -l
+   90  chmod +x activate
+   91  ls -l
+   92  activate
+   93  ./activate
+   94  cd ..
+   95  cd ..
+   96  venv/bin/activate
+   97  source venv/bin/activate
+   98  history
+   99  history >commandsheet.txt

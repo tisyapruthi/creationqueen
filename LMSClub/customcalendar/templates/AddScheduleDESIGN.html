@@ -1,0 +1,40 @@
+<html>
+<title> My Calendar Webpage </title>
+<style>
+table, th, td {
+ border: 1px ridge #2b4e82;
+ border-radius: 2px;
+
+}
+</style>
+<body bgcolor="#e3cfe6">
+<center>
+    <h1> MY CALENDAR </h1>
+    <form action = "http://localhost:5000/result" method = "POST">
+    <table BORDER="2" BGCOLOR="#bcb0d9">
+        <TR>
+            <TH>TIME</TH>
+            <TH>MONDAY</TH>
+            <TH>TUESDAY</TH>
+            <TH>WEDNESDAY</TH>
+            <TH>THURSDAY</TH>
+            <TH>FRIDAY</TH>
+        </TR>
+        {% for key, value in result.items() %}
+            <TR>
+                <TD>{{key}}</TD>
+                <TD><input type = "text" name = "{{key}}$Monday" value={{value[0]}}></TD></TD>
+                <TD><input type = "text" name = "{{key}}$Tuesday" value={{value[1]}}></TD></TD>
+                <TD><input type = "text" name = "{{key}}$Wednesday" value={{value[2]}}></TD></TD>
+                <TD><input type = "text" name = "{{key}}$Thursday" value={{value[3]}}></TD></TD>
+                <TD><input type = "text" name = "{{key}}$Friday" value={{value[4]}}></TD></TD>
+
+            </TR>
+        {% endfor %}
+    </table>
+        <p><input type = "submit" value = "SAVE" /></p>
+    </form>
+</center>
+</body>
+</html>
+
